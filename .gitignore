@@ -1,0 +1,40 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+*.pickle
+
+# Virtual environment
+venv/
+.env/
+.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# CatBoost model and training info
+catboost_info/
+*.cbm
+
+# Data files
+data/
+*.csv
+*.tsv
+*.parquet
+*.xlsx
+*.json
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+*.tmp
+*.out
+
+# IDE / editor configs
+.vscode/
+.idea/
